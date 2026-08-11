@@ -1,0 +1,1 @@
+{"version":2,"defects":[],"times":{"Payments\\Tests\\OrangeMoneyGatewayTest::test_initiate_returns_redirect_url":0.706,"Payments\\Tests\\PaymentManagerTest::test_it_registers_and_resolves_a_gateway":0.001,"Payments\\Tests\\PaymentManagerTest::test_it_throws_when_gateway_is_unknown":0.001}}
