@@ -10,9 +10,6 @@ fournisseurs de paiement : **Stripe**, **PayPal**, **Visa Direct**, **Orange Mon
 composer require eor_bah545/payments
 ```
 
-> Le `name` dans `composer.json` (`payments/payments`) est un exemple — renommez-le
-> avec votre propre vendor avant publication sur Packagist si besoin.
-
 ## Architecture
 
 ```
