@@ -1,4 +1,4 @@
-Voici le flux complet PayPal avec la nouvelle façade fluide `Payments\PayPal` :
+# Paypal exemple :
 
 **1. Créer le paiement et rediriger le client**
 
@@ -65,5 +65,3 @@ $refund = $paypal->refund(
     reason: 'Produit défectueux',
 );
 ```
-
-Le principe reste le même qu'avant (créer → rediriger → capturer au retour), seule la façon d'écrire le code change : chaînage fluide, montants en unité principale, plus de `PaymentRequest`/`PaymentManager` à manipuler pour un usage simple mono-fournisseur.
